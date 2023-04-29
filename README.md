@@ -38,9 +38,7 @@ form is submitted.
 
 Fetch.js
 
-The Fetch.js file contains the Fetch component, which sends a GET request to the server to retrieve data from a specified endpoint. The retrieved data is then 
-
-displayed in the component.
+The Fetch.js file contains the Fetch component, which sends a GET request to the server to retrieve data from a specified endpoint. The retrieved data is then displayed in the component.
 
 Dependencies
 
