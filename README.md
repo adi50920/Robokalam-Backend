@@ -23,6 +23,7 @@ Open http://localhost:3000 in your browser to view the application.
 <b>Code Overview</b>
 
 <b>App.js</b>
+
 The App.js file contains the App component, which renders the Form and Fetch components.
 
 
@@ -36,11 +37,11 @@ The Fetch.js file contains the Fetch component, which sends a GET request to the
 <b>Dependencies</b>
 
 @mantine/core
+
 @mantine/form
+
 axios
-react
-react-dom
-react-scripts
+
 
 
 <b>Screenshot :</b>
