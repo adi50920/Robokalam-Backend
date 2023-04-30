@@ -1,7 +1,7 @@
 ﻿README
 This code is a React application that contains two components: Form and Fetch. The Form component includes a form that allows users to input their name, email, age, and password. The input fields are validated to ensure that the user enters the correct type of data in each field. The Fetch component sends a request to the server to retrieve and display data from a specified endpoint.
 
-Getting Started
+<b>Getting Started</b>
 
 Clone this repository to your local machine.
 
