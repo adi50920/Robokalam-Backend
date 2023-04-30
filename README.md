@@ -14,48 +14,36 @@ Start the development server by running npm start.
 Create a file named ".env" inside the server folder and paste the below content inside it : {
 
 PORT=8000
-
 DATABASE_URL="mongodb+srv://aditya:aditya@practice.3i8o867.mongodb.net/?retryWrites=true&w=majority"
 
 }
 
 Open http://localhost:3000 in your browser to view the application.
 
-Code Overview
+<b>Code Overview</b>
 
-App.js
-
+<b>App.js</b>
 The App.js file contains the App component, which renders the Form and Fetch components.
 
 
-Form.js
+<b>Form.js</b>
 
-The Form.js file contains the Form component, which includes a form that allows users to input their name, email, age, and password. The useForm hook from the 
+The Form.js file contains the Form component, which includes a form that allows users to input their name, email, age, and password. The useForm hook from the @mantine/form library is used to manage the state of the form and validate the user inputs. The axios library is used to make a POST request to the server when the form is submitted.
 
-@mantine/form library is used to manage the state of the form and validate the user inputs. The axios library is used to make a POST request to the server when the 
-
-form is submitted.
-
-Fetch.js
-
+<b>Fetch.js</b>
 The Fetch.js file contains the Fetch component, which sends a GET request to the server to retrieve data from a specified endpoint. The retrieved data is then displayed in the component.
 
-Dependencies
+<b>Dependencies</b>
 
 @mantine/core
-
 @mantine/form
-
 axios
-
 react
-
 react-dom
-
 react-scripts
 
 
-Screenshot :
+<b>Screenshot :</b>
 
 ![FireShot Capture 008 - React App - localhost](https://user-images.githubusercontent.com/98736611/235356429-a17fe1f1-d8a9-45cc-b284-84c217295e39.png)
 
